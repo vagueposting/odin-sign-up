@@ -124,8 +124,20 @@ form {
 
 input {
     border: 1px solid #E5E7EB;
-    border-radius: 1px;
+    border-radius: 3px;
     background-color: rgb(250, 250, 250);
+}
+
+input:focus {
+    border-color: rgb(18, 85, 172);
+}
+
+input:focus-visible {
+    outline-color: rgb(18, 85, 172);
+}
+
+input:invalid {
+    border-color: rgb(114, 20, 20);
 }
 
 .field-item label {
